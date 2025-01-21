@@ -1,0 +1,95 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Inter, Arial, sans-serif;
+  background-color: #e4d6d6;
+  line-height: 1.5;
+  font-weight: 400;
+  color: white;
+}
+
+/* Header section */
+header {
+  background-color: rgb(218, 76, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+img {
+  width: 55px;
+  margin-right: 10px;
+}
+
+header > h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+/* Main section */
+.article-body {
+  color: rgb(21, 20, 20);
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
+.article-img-container {
+  height: 170px;
+  width: 125px;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.article-img-container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* .info-container {
+  /* margin: 7px 10px; *
+} */
+
+.info-container img {
+  width: 7px;
+  margin-right: 4px;
+}
+
+.info-container span {
+  margin: 0px 10px 0px 0px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 0.12rem;
+}
+
+.info-container a {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.info-container h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin: 0px 0px 10px;
+}
+
+.info-container p {
+  font-size: 0.8rem;
+  margin: 5px 0px 0px;
+}
+
+.date {
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
