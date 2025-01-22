@@ -1,11 +1,10 @@
 
 export default function (props) {
   const { 
-    mainImg,
-    markerImg,
+    img,
     country,
-    mapLink,
-    placeName,
+    link,
+    place,
     date,
     description
    } = props
@@ -13,13 +12,13 @@ export default function (props) {
   return (
     <article className="article-body">
       <div className="article-img-container">
-        <img src={mainImg} alt="japan" />
+        <img src={img.src} alt={img.alt} />
       </div>
       <div className="info-container">
-        <img src={markerImg} alt="marker" />
+        <img src="/marker.png" alt="marker" />
         <span>{country}</span>
-        <a href={mapLink}>View on Google Maps</a>
-        <h3>{placeName}</h3>
+        <a href={link}>View on Google Maps</a>
+        <h3>{place}</h3>
         <p className="date">{date}</p>
         <p>{description}</p>
       </div>
